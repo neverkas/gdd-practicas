@@ -1,1 +1,1 @@
-![](Telefonica.jpeg | width=650)
+<img src="Telefonica.jpeg" width=650 />
