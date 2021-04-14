@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+    db:
+        image: "mcr.microsoft.com/mssql/server"
+        container_name: sql-server-db
+        ports:
+          - "1433:1433"
+        environment:
+            SA_PASSWORD: "123"
+            ACCEPT_EULA: "Y"
